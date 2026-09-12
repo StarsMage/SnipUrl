@@ -76,7 +76,7 @@ Open your browser and navigate to `http://localhost:8080`.
 │   └── postgres.go        # PostgreSQL connection pool & queries
 ├── .dockerignore
 ├── .gitignore
-├── alg.go                 # Base62 hash encoder logic
+├── alg.go                 # Custom Algoritm Hash
 ├── Dockerfile             # Multi-stage Go build container definition
 ├── docker-compose.yml     # Service orchestration (App + Postgres)
 ├── go.mod
