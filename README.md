@@ -14,7 +14,7 @@
 ## 🌋 Features
 
 - 🩸 **High Performance:** Powered by Go's high-concurrency standard runtime and non-blocking router.
-- 🌋 **Custom Base62 Hashing:** Efficient unique short-code generation forged in code.
+- 🌋 **Custom Algoritm Hashing:** Efficient unique short-code generation forged in code.
 - 🩸 **Real-Time Click Tracking:** Tracks total link visits atomically stored in PostgreSQL.
 - 🌋 **Full Containerization:** Pre-configured Docker Compose setup for instant localized deployment.
 - 🩸 **Modern Minimal UI:** Clean, responsive, dependency-free frontend HTML5/CSS3 interface.
