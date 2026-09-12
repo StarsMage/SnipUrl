@@ -43,22 +43,22 @@
    git clone [https://github.com/StarsMage/SnipUrl.git](https://github.com/StarsMage/SnipUrl.git)
    cd SnipUrl
 
-```
+   ```
 
 2. **Start the application with Docker Compose:**
-```bash
-docker compose up --build -d
+   ```bash
+   docker compose up --build -d
 
-```
+   ```
 
 
 3. **Access the Web Interface:**
 Open your browser and navigate to `http://localhost:8080`.
 4. **Stop the services:**
-```bash
-docker compose down -v
+   ```bash
+   docker compose down -v
 
-```
+   ```
 
 
 
