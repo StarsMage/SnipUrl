@@ -6,6 +6,7 @@
 [![Docker Compose](https://img.shields.io/badge/Docker_Compose-v2+-2496ED?style=flat-sqlite&logo=docker)](https://www.docker.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
+**⌀WITHOUT SURVEILLANCE AND DATA COLLECTION⌀**
 
 **Snip** is a brutally fast, lightweight, and containerized URL shortener built with Go, PostgreSQL, and modern vanilla web technology. It features custom hash-based URL encoding, persistent click analytics, and effortless multi-container deployment via Docker Compose.
 
