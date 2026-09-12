@@ -1,0 +1,30 @@
+services:
+  # service PostgreSQL
+  db:
+    image: postgres:alpine
+    container_name: snip-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: snip_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql
+      - ./db/postgres.sql:/docker-entrypoint-initdb.d/init.sql
+    restart: always
+
+  # Go web server
+  app:
+    build: .
+    container_name: snip-app
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+    environment:
+      - DB_CONN=postgres://postgres:password@db:5432/snip_db?sslmode=disable
+    restart: always
+
+volumes:
+  pgdata:

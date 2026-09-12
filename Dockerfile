@@ -1,0 +1,21 @@
+FROM golang:1.26-alpine AS builder
+
+WORKDIR /app
+
+COPY go.mod go.sum ./
+RUN go mod download
+
+COPY . .
+RUN CGO_ENABLED=0 GOOS=linux go build -o snip .
+
+FROM alpine:latest
+
+WORKDIR /app
+
+COPY --from=builder /app/snip .
+COPY --from=builder /app/index.html .
+COPY --from=builder /app/static ./static
+
+EXPOSE 8080
+
+CMD ["./snip"]
