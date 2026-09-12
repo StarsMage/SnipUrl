@@ -90,7 +90,5 @@ Open your browser and navigate to `http://localhost:8080`.
 
 ## 📄 License
 
-Distributed under the MIT License. See [`LICENSE`](https://www.google.com/search?q=LICENSE) for more information.
-
-```
+Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information.
 
