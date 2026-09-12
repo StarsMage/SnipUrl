@@ -1,8 +1,8 @@
 
 # 🌋🩸 Snip — High-Performance URL Shortener 🩸🌋
 
-[![Go Version](https://img.shields.io/badge/Go-1.22+-00ADD8?style=flat-sqlite&logo=go)](https://golang.org)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16+-4169E1?style=flat-sqlite&logo=postgresql)](https://www.postgresql.org)
+[![Go Version](https://img.shields.io/badge/Go-1.26+-00ADD8?style=flat-sqlite&logo=go)](https://golang.org)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-18+-4169E1?style=flat-sqlite&logo=postgresql)](https://www.postgresql.org)
 [![Docker Compose](https://img.shields.io/badge/Docker_Compose-v2+-2496ED?style=flat-sqlite&logo=docker)](https://www.docker.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -25,7 +25,7 @@
 ## 🛠 Tech Stack
 
 - **Backend:** Go (`net/http`, `chi` router)
-- **Database:** PostgreSQL 16+ with `pgxpool` connection pooling
+- **Database:** PostgreSQL 18+ with `pgxpool` connection pooling
 - **Frontend:** Plain HTML5, Modern CSS Variables
 - **DevOps:** Docker, Docker Compose
 
